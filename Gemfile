@@ -40,3 +40,14 @@ gem 'rubycas-client-rails', :git => "git://github.com/rubycas/rubycas-client-rai
 
 # To use debugger
 # gem 'debugger'
+
+gem 'rvm'
+
+gem 'unicorn'
+
+group :development do
+   gem 'capistrano'
+   gem 'capistrano-recipes0', :git => 'git://github.com/BrandyMint/capistrano-recipes0.git'
+   gem 'rvm-capistrano'
+end
+
