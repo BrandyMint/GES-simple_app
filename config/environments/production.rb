@@ -65,6 +65,6 @@ GESSimpleApp::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  config.rubycas.cas_base_url = "http://cas.ges.icfdev.ru"
+  config.rubycas.cas_base_url = "http://cas.ges.icfdev.ru:3030"
 
 end
