@@ -1,5 +1,7 @@
 GESSimpleApp::Application.routes.draw do
 
+  get "app/start"
+
   get "home/index"
 
   get "welcome/index"
